@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
@@ -97,6 +96,9 @@ function App() {
               <h1>Personalized Message</h1>
             </div>
             <div className="card-body">
+            <p className="card-text">
+                Upload an Excel file (.xls or .xlsx) with two columns: <strong>name</strong> (Column A) and <strong>telephone</strong> (Column B) to clean the your file. Download the cleaned file, refresh the page and re-upload it and click the "generate links" button. 
+              </p>
               <form onSubmit={handleClean}>
                 <div className="mb-3">
                   <input className="form-control" type="file" accept=".xls,.xlsx" onChange={handleFileChange} disabled={loading} />
