@@ -1,4 +1,4 @@
-const messageTemplate = "Dear [name],\n\nAs we come to the end of the campaigns, I would also like to remind you to vote for Alvin Nyandeje on Friday 31st October!! \n\n A vote for Alvin is a vote for Courage and Consistency.\n\n#Alvin4president\n\n#the17th";
+const messageTemplate = "Dear [name],\n\nAs we come to the end of the campaigns, I would like to remind you to vote for Alvin Nyandeje on Friday 31st October!! \n\nA vote for Alvin is a vote for Courage and Consistency.\n\n#Alvin4president\n\n#the17th";
 
 function generateLinks(validContacts) {
   const contactsWithLinks = [];
