@@ -1,4 +1,4 @@
-const messageTemplate = "Dear [name],\n\nThe Wait is Finally Over️. This rerun represents a vote for courage. A vote for a candidate who ran when it mattered most on the 31st October 2025. \"You know my heart, you have seen my work. Let us build a better Strathmore not just for tomorrow but for generations to come!!\"\n\n#Alvin4president\n\n#the17th";
+const messageTemplate = "Dear [name],\n\nAs we come to the end of the campaigns, I would like to first wish you all the best in your remaining examinations.\n\nI would also like to remind you to vote for Alvin Nyandeje on Friday 31st October. A vote for Alvin is a vote for Courage and Consistency.\n\n#Alvin4president\n\n#the17th";
 
 function generateLinks(validContacts) {
   const contactsWithLinks = [];
