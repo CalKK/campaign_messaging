@@ -97,7 +97,7 @@ function App() {
             </div>
             <div className="card-body">
             <p className="card-text">
-                Upload an Excel file (.xls or .xlsx) with two columns: <strong>name</strong> (Column A) and <strong>telephone</strong> (Column B) to clean the your file. Download the cleaned file, refresh the page and re-upload it and click the "generate links" button for the messages that route to WhatsApp. 
+                Upload an Excel file (.xls or .xlsx) with two columns: <strong>name</strong> (Column A) and <strong>telephone</strong> (Column B) to clean the your file. Download the cleaned file, refresh the page, re-upload it and click the "generate links" button for the messages that route to WhatsApp. 
               </p>
               <form onSubmit={handleClean}>
                 <div className="mb-3">
