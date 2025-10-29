@@ -97,13 +97,14 @@ function App() {
               <h1>Personalized Message</h1>
             </div>
             <div className="card-body">
-              <p className="card-text">
+           /*   <p className="card-text">
                 Upload an Excel file (.xls or .xlsx) with two columns: <strong>name</strong> (Column A) and <strong>telephone</strong> (Column B, e.g., 254712345678 for Kenyan international or 712345678 local - auto-converts to international). The app will generate personalized "Click to Chat" WhatsApp links using the provided message template. Click the buttons below to open WhatsApp and send messages manually—one at a time.
               </p>
 
               <p className="card-text text-muted small">
                 <strong>Instructions:</strong> After uploading, review the summary and detailed errors if any. For Kenyan numbers, local 8-digit (starting with 7 or 1) will auto-add '254'. If errors occur, check specific row issues below. Valid links will appear as buttons; clicking opens WhatsApp Web or app with the pre-filled message.
               </p>
+              */
               <form onSubmit={handleClean}>
                 <div className="mb-3">
                   <input className="form-control" type="file" accept=".xls,.xlsx" onChange={handleFileChange} disabled={loading} />
@@ -112,9 +113,10 @@ function App() {
                   {loading ? 'Cleaning...' : 'Clean File'}
                 </button>
               </form>
-              <p className="text-muted small mb-3">
+             /* <p className="text-muted small mb-3">
                 <strong>Tip:</strong> If your file has formatting issues, use "Clean File" first to standardize it (trims data, fixes columns, removes empties). Then upload the downloaded "cleaned_contacts.xlsx" to generate links.
               </p>
+              */
               <form onSubmit={handleSubmit}>
                 <button type="submit" className="btn btn-primary w-100" disabled={loading || !file}>
                   {loading ? 'Processing file...' : 'Generate Links'}
