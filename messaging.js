@@ -1,4 +1,4 @@
-const messageTemplate = "Dear [name],\n\nAs we come to the end of the campaigns, I would like to remind you to vote for Alvin Nyandeje on Friday 31st October!! \n\nA vote for Alvin is a vote for Courage and Consistency.\n\n#Alvin4president\n\n#the17th";
+const messageTemplate = "Good morning [name],\n\nToday is the big day. Kindly remember to cast your vote in the student council elections. Let's choose accountable,transparent leadership that empowers every stratizen. Should you have any challenges, please send an email to electionscommittee@strathmore.edu\n\nWith gratitude,\nAlvin Nyandeje.\n#Alvin4president\n#the17th\n#tutakosajenaNyandeje";
 
 function generateLinks(validContacts) {
   const contactsWithLinks = [];
